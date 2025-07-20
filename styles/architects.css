@@ -125,6 +125,61 @@ main section{
 #of-our{
     font-weight: bold;
 }
+
+/* feature-section-title */
+
+#feature-section-title{
+        border-left: 5px solid #FF900E;
+        padding-left: 20px;
+}
+
+.features{
+    gap: 140px;
+}
+
+.feature-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba( 0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px
+    
+}
+
+#experience-badge{
+        padding: 46px 42px 45px 42px;
+        border-radius: 8px;
+        background-color: #FF900E;
+        margin-left: -100px;
+        margin-top: -100px;
+
+}
+#experience-years{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    
+    
+}
+
+#description{
+    font-size: 1.2rem;
+    font-weight: medium;
+    color: white;
+   
+}
+
+.featured-architect img{
+    width: 100%;
+}
+
 /* Some Facts card style */
 .facts-container{
     display: grid;
@@ -179,6 +234,7 @@ main section{
 @media screen and (max-width: 576px) {
         .navber , 
         .nav-links, 
+        .features,
         .teams{
             flex-direction: column;
         }
@@ -200,6 +256,11 @@ main section{
 
         .our-features{
             margin-left: 20px;
+        }
+
+        #experience-badge{
+            margin-left: 15px;
+            margin-top: 20px;
         }
 }
 
